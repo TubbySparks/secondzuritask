@@ -1,8 +1,8 @@
 {
   "name": "task_2",
   "version": "1.0.0",
-  "description": "This is a simple CRUD (Create, Read, Update, Delete) API built with Node.js and MySQL for managing user records.",
-  "main": "index.js",
+  "description": "This is a simple CRUD (Create, Read, Update, Delete) API built with Node.js and Mongodb for managing user records.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "mysql": "^2.18.1"
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

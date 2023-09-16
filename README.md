@@ -1,6 +1,6 @@
-# Node.js and MySQL CRUD API
+# Node.js and MongoDb CRUD API
 
-This is a simple CRUD (Create, Read, Update, Delete) API built with Node.js and MySQL for managing user records.
+This is a simple CRUD (Create, Read, Update, Delete) API built with Node.js and MongoDb for managing user records.
 
 ## Table of Contents
 
@@ -23,8 +23,8 @@ This is a simple CRUD (Create, Read, Update, Delete) API built with Node.js and 
 Before you begin, ensure you have met the following requirements:
 
 - Install Node.js installed (version >= 14.20.1)
-- Install MySQL database server installed and running
-- Install MySQL database credentials (host, username, password, and database name)
+- Install MongoDb
+-
 
 ## Getting Started
 
@@ -40,16 +40,9 @@ Before you begin, ensure you have met the following requirements:
 2.  Install dependencies
     npm install
 3.  Database Setup
-    Create a MySQL database for your project.
+    Create a MongoDb database for your project.
 
-            Update the MySQL connection settings in app.js:
-            const db = mysql.createConnection({
-        host: 'your-hostname',
-        user: 'your-username',
-        password: 'your-password',
-        database: 'your-database',
-        });
-
+            
 4.  Start the Node.js server:
     node app.js
 

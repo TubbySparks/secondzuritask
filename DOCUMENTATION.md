@@ -1,11 +1,11 @@
 Standard Format for Request and Respond
 
- API Endpoints
-    Create User
-    URL: /api/person
-    Method: POST
-    Request Body: JSON object with name and email fields.
-    Response: JSON object with a success message and the created user's name.
+API Endpoints
+Create User
+URL: /api/person
+Method: POST
+Request Body: JSON object with name and email fields.
+Response: JSON object with a success message and the created user's name.
 
     Retrieve User
     URL: /api/person/:name
@@ -28,7 +28,6 @@ Standard Format for Request and Respond
     Method: DELETE
     Response: No content (204) on successful deletion.
 
-
 Sample useage
 get all person
 https://hng2a.onrender.com/api
@@ -38,9 +37,7 @@ get person by name
 https://hng2a.onrender.com/api/Ese
 
 {
-    "id": 2,
-    "name": "Ese",
-    "email": "ese@gmail.com"
+"id": 2,
+"name": "Ese",
+"email": "ese@gmail.com"
 }
-
-
