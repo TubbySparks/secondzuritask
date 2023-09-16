@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://tubbysparks:Adeyemo%40@cluster0.tmkwa7x.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://tubbysparks:Adeyemo%40@cluster0.tmkwa7x.mongodb.net/persons_db?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
